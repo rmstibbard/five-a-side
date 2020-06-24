@@ -1,11 +1,17 @@
 import React from 'react';
 
-function ListPlayers() {
-  return (
+import '../../App.css';
+
+const ListPlayers = ({ playersList }) => (
+
+  <div>
     <ul>
-      <li>List of players</li>
+      {playersList.map((player, index) => (
+        <li key={index}>{player.name}</li>
+      ))}
     </ul>
-  );
-}
+  </div>
+
+);
 
 export default ListPlayers;
