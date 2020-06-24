@@ -1,5 +1,5 @@
-export const initial = {
+export const initialState = {
   playersList: [],
 };
 
-export default initial;
+export default initialState;
