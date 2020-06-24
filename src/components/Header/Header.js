@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <h2>Header</h2>
+    <h1>Five-A-Side Automatic Team Picker</h1>
   );
 }
 
