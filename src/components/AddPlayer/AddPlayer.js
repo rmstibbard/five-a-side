@@ -7,6 +7,7 @@ class AddPlayer extends Component {
     this.state = {
       playerName: props.playerName,
     };
+
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   };

@@ -4,7 +4,7 @@ import Header from './components/Header/Header'; // Must use directory and filen
 import AddPlayer from './components/AddPlayer'; // Has container file
 import ListPlayers from './components/ListPlayers';
 import CreateTeams from './components/CreateTeams/CreateTeams';
-import DisplayTeams from './components/DisplayTeams/DisplayTeams';
+import DisplayTeams from './components/DisplayTeams';
 import Footer from './components/Footer/Footer';
 
 function App() {
