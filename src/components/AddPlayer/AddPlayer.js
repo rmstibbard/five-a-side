@@ -40,7 +40,7 @@ class AddPlayer extends Component {
           <button
             type="submit"
             className="player-submit"
-            disabled={this.state.numbersReached}
+            disabled={this.props.numbersReached}
           >
             Add a player
           </button>
