@@ -6,3 +6,13 @@ export const addPlayer = (data) => {
     }
   };
 };
+
+
+export const createTeams = (data) => {
+  return {
+    type: "CREATE_TEAMS",
+    player: {
+      name: data.playerName,
+    }
+  };
+};
