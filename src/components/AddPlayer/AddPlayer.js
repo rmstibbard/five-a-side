@@ -25,11 +25,10 @@ class AddPlayer extends Component {
 
     return (
       <React.Fragment>
-        <h2 className="form-header">Enter a player's name</h2>
-
         <form className="entry-form" onSubmit={this.handleSubmit}>
-          <input type="text" onChange={this.handleChange} />
-          <button type="submit">Add a player</button>
+          <label htmlFor="player" className="form-header">Enter a player's name: </label>
+          <input name="player" className="player-input" type="text" onChange={this.handleChange} />
+          <button type="submit" className="player-submit">Add a player</button>
         </form>
 
       </React.Fragment>

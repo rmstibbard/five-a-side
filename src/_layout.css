@@ -11,6 +11,18 @@ body {
   margin-bottom: 50px;
 }
 
+.player-input {
+  height: 40px;
+  width: 300px;
+}
+
+.player-submit {
+  display: block;
+  height: 50px;
+  width: 550px;
+  margin: 20px auto;
+}
+
 .game {
   margin-left: auto;
   margin-right: auto;
@@ -43,6 +55,10 @@ body {
 
 .team-b-players {
   text-align: right;
+}
+
+footer {
+  margin-top: 40px;
 }
 
 @media screen and (min-width: 700px) {

@@ -6,12 +6,20 @@ body {
   font-size: 2.5rem;
 }
 
+.form-header, .player-input, .player-submit {
+  font-size: 1.5rem;
+}
+
 .team-a, .team-b {
   font-size: 1.5rem;
 }
 
 .team-a-players, .team-b-players {
   font-size: 1.25rem;
+}
+
+footer {
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 700px) {
