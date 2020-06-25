@@ -31,7 +31,7 @@ class AddPlayer extends Component {
           <input type="text" onChange={this.handleChange} />
           <button type="submit">Add a player</button>
         </form>
-        {console.log(this.state)}
+
       </React.Fragment>
     )
 
