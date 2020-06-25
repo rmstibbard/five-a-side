@@ -1,3 +1,7 @@
-.team-a, .team-b {
+.header, .team-a, .team-b, .form-header, footer {
   color: white;
+}
+
+.entry-form {
+  background-color: rgba(192, 192, 192, 0.3);
 }

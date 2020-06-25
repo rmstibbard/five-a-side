@@ -1,5 +1,9 @@
-.game {
+body {
   background-image: url('../src/img/background.jpg');
+}
+
+.game {
+  background-image: url('../src/img/pitch.jpg');
   background-size: contain;
   background-repeat: no-repeat;
 }

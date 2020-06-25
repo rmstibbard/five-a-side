@@ -8,19 +8,22 @@ body {
 }
 
 .entry-form {
-  margin-bottom: 50px;
+  width: 900px;
+  margin: 0 auto 20px auto;
+  padding: 10px;
 }
 
 .player-input {
   height: 40px;
   width: 300px;
+  text-align: center;
 }
 
 .player-submit {
   display: block;
   height: 50px;
   width: 550px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .game {
@@ -58,7 +61,7 @@ body {
 }
 
 footer {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 700px) {

@@ -17,8 +17,8 @@ const shufflePlayers = (state) => {
 
 const createTeams = (state) => {
 
-  let teamA = state.shuffledList.filter((playerName, index) => index < state.playersList.length / 2);
-  let teamB = state.shuffledList.filter((playerName, index) => index >= state.playersList.length / 2);
+  let teamA = state.shuffledList.filter((playerName, index) => index % 2 === 0);
+  let teamB = state.shuffledList.filter((playerName, index) => index % 2 !== 0);
 
   return {
     ...state,
@@ -26,7 +26,6 @@ const createTeams = (state) => {
     teamB: teamB,
   }
 }
-
 
 const reducer = (state, action) => {
   switch (action.type) {

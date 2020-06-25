@@ -4,7 +4,7 @@ const DisplayTeams = ({ teamA, teamB }) => (
   <React.Fragment>
     <div className="game">
       <div className="team-a">
-        <p>TeamA</p>
+        <p>Team A</p>
         <ul className="team-a-players">
           {teamA.map((player, index) => (
             <li key={index}>{player.name}</li>
@@ -14,7 +14,7 @@ const DisplayTeams = ({ teamA, teamB }) => (
 
       <div>
         <div className="team-b">
-          <p>TeamB</p>
+          <p>Team B</p>
           <ul className="team-b-players">
             {teamB.map((player, index) => (
               <li key={index}>{player.name}</li>

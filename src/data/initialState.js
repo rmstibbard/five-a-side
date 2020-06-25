@@ -2,7 +2,8 @@ export const initialState = {
   playersList: [],
   shuffledList: [],
   teamA: [],
-  teamB: []
+  teamB: [],
+  numbersReached: false
 };
 
 export default initialState;

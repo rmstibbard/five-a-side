@@ -36,7 +36,7 @@ footer {
 
 @media screen and (min-width: 1000px) {
   .header {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .team-a, .team-b {
     font-size: 3rem;

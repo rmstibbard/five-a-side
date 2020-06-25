@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 class AddPlayer extends Component {
 
   constructor(props) {
@@ -6,10 +7,12 @@ class AddPlayer extends Component {
 
     this.state = {
       playerName: props.playerName,
+      numbersReached: props.numbersReached
     };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+
   };
 
   handleChange(e) {
@@ -21,14 +24,25 @@ class AddPlayer extends Component {
     this.props.handleSubmit({ ...this.state });
   }
 
+
   render() {
 
     return (
       <React.Fragment>
         <form className="entry-form" onSubmit={this.handleSubmit}>
-          <label htmlFor="player" className="form-header">Enter a player's name: </label>
-          <input name="player" className="player-input" type="text" onChange={this.handleChange} />
-          <button type="submit" className="player-submit">Add a player</button>
+          <input
+            placeholder="Enter a player's name"
+            className="player-input"
+            type="text"
+            onChange={this.handleChange}
+          />
+          <button
+            type="submit"
+            className="player-submit"
+            disabled={this.state.numbersReached}
+          >
+            Add a player
+          </button>
         </form>
 
       </React.Fragment>
