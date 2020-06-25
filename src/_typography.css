@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  font-size: 2.5rem;
+}
+
+.team-a, .team-b {
+  font-size: 1.5rem;
+}
+
+.team-a-players, .team-b-players {
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 700px) {
+  .header {
+    font-size: 3rem;
+  }
+  .team-a, .team-b {
+    font-size: 2.2rem;
+  }
+  .team-a-players, .team-b-players {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header {
+    font-size: 5rem;
+  }
+  .team-a, .team-b {
+    font-size: 3rem;
+  }
+  .team-a-players, .team-b-players {
+    font-size: 2rem;
+  }
+}

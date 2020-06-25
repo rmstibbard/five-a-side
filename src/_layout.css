@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.entry-form {
+  margin-bottom: 50px;
+}
+
+.game {
+  margin-left: auto;
+  margin-right: auto;
+  height: 900px;
+  width: 70%;
+  position: relative;
+}
+
+.team-a, .team-b {
+  position: absolute;
+  top: 10px;
+}
+
+.team-a {
+  left: 20px;
+}
+
+.team-b {
+  right: 20px;
+}
+
+.team-a-players, .team-b-players {
+  margin-top: 20px;
+  line-height: 2.25rem;
+}
+
+.team-a-players {
+  text-align: left;
+}
+
+.team-b-players {
+  text-align: right;
+}
+
+@media screen and (min-width: 700px) {
+  .team-a, .team-b {
+    top: 20px;
+  }
+  .team-a {
+    left: 5%;
+  }
+  .team-b {
+    right: 5%;
+  }
+  .team-a-players, .team-b-players {
+    margin-top: 30px;
+    line-height: 2.8rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .team-a, .team-b {
+    top: 40px;
+  }
+  .team-a {
+    left: 5%;
+  }
+  .team-b {
+    right: 5%;
+  }
+  .team-a-players, .team-b-players {
+    line-height: 4rem;
+  }
+}
