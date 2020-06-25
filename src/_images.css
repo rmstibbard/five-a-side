@@ -1,6 +1,8 @@
 body {
   background-image: url('../src/img/background.jpg');
   /*https://pxhere.com/en/photo/1426191 */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .game {
