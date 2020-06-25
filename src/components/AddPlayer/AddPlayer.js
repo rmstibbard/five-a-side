@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NumbersReached from '../NumbersReached';
 
 class AddPlayer extends Component {
 
@@ -43,6 +44,7 @@ class AddPlayer extends Component {
           >
             Add a player
           </button>
+          <NumbersReached />
         </form>
 
       </React.Fragment>

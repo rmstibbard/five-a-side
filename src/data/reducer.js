@@ -16,14 +16,21 @@ const shufflePlayers = (state) => {
 }
 
 const createTeams = (state) => {
+  if (state.shuffledList.length <= 10) {
+    let teamA = state.shuffledList.filter((playerName, index) => index % 2 === 0);
+    let teamB = state.shuffledList.filter((playerName, index) => index % 2 !== 0);
 
-  let teamA = state.shuffledList.filter((playerName, index) => index % 2 === 0);
-  let teamB = state.shuffledList.filter((playerName, index) => index % 2 !== 0);
-
-  return {
-    ...state,
-    teamA: teamA,
-    teamB: teamB,
+    return {
+      ...state,
+      teamA: teamA,
+      teamB: teamB,
+    }
+  }
+  else {
+    return {
+      ...state,
+      numbersReached: true,
+    }
   }
 }
 

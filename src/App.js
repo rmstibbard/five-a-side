@@ -6,14 +6,14 @@ import AddPlayer from './components/AddPlayer'; // Has container file
 // import CreateTeams from './components/CreateTeams';
 import DisplayTeams from './components/DisplayTeams';
 import Footer from './components/Footer/Footer';
-import NumbersReached from './components/NumbersReached';
+
 
 function App() {
   return (
     <React.Fragment>
       <Header />
       <AddPlayer />
-      <NumbersReached />
+
       {/* <ListPlayers /> */}
       {/* <CreateTeams /> */}
       <DisplayTeams />
