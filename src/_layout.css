@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .header {
@@ -8,22 +9,23 @@ body {
 }
 
 .entry-form {
-  width: 900px;
-  margin: 0 auto 20px auto;
+  width: 100%;
   padding: 10px;
+  margin: 0 auto 30px auto;
 }
 
 .player-input {
-  height: 40px;
-  width: 300px;
   text-align: center;
+  height: 40px;
+  width: 69%;
+  outline: none;
 }
 
 .player-submit {
+  margin: 10px auto;
   display: block;
   height: 50px;
-  width: 550px;
-  margin: 10px auto;
+  width: 70%;
 }
 
 .game {
@@ -65,6 +67,15 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
+  .entry-form {
+    width: 90%;
+  }
+  .player-input {
+    width: 400px;
+  }
+  .player-submit {
+    width: 410px;
+  }
   .team-a, .team-b {
     top: 20px;
   }
@@ -81,6 +92,9 @@ footer {
 }
 
 @media screen and (min-width: 1000px) {
+  .entry-form {
+    width: 75%;
+  }
   .team-a, .team-b {
     top: 40px;
   }
