@@ -4,6 +4,7 @@ body {
 
 .game {
   background-image: url('../src/img/pitch.jpg');
+  /* https://www.pxfuel.com/en/free-photo-ornro */
   background-size: contain;
   background-repeat: no-repeat;
 }
