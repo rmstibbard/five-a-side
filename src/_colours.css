@@ -23,6 +23,11 @@
   border-color: #5a6268;
 }
 
+.player-submit:disabled {
+  background-color: black;
+  border-color: #5a6268;
+}
+
 .reset-teams {
   color: #fff;
   background-color: #dc3545;

@@ -41,6 +41,7 @@ class AddPlayer extends Component {
             className="player-input"
             type="text"
             onChange={this.handleChange}
+            disabled={this.props.numbersReached}
           />
           <button
             type="submit"
