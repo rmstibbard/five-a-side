@@ -4,7 +4,7 @@ import NumbersReached from "./NumbersReached";
 const mapStateToProps = (state) => {
   return {
     ...state,
-    numbersReached: state.playersList.length >= 10 // For five-a-side
+    numbersReached: state.playersList.length >= 10// For five-a-side
   };
 };
 
