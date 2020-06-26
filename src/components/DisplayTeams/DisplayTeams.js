@@ -21,7 +21,7 @@ const DisplayTeams = ({ playersList, teamA, teamB }) => (
         <div className="team-a-title">
           <p>Team A</p>
           <ul className="team-a-players">
-            {playersList.length === 10 ?
+            {playersList.length >= 10 ?
               teamA.map((player, index) => (
                 <li key={index}>{player.name}</li>
               )) :
@@ -34,7 +34,7 @@ const DisplayTeams = ({ playersList, teamA, teamB }) => (
           <div className="team-b-title">
             <p>Team B</p>
             <ul className="team-b-players">
-              {playersList.length === 10 ?
+              {playersList.length >= 10 ?
                 teamB.map((player, index) => (
                   <li key={index}>{player.name}</li>
                 )) :

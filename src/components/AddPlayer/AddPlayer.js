@@ -37,15 +37,16 @@ class AddPlayer extends Component {
       <React.Fragment>
         <form className="entry-form" onSubmit={this.handleSubmit}>
           <input
+            disabled={this.props.numbersReached}
             placeholder="Enter a player's name"
             className="player-input"
             type="text"
             onChange={this.handleChange}
           />
           <button
+            disabled={this.props.numbersReached}
             type="submit"
             className="player-submit"
-            disabled={this.props.numbersReached}
           >
             Add a player
           </button>

@@ -24,6 +24,7 @@
 }
 
 .player-submit:disabled {
+  color: grey;
   background-color: black;
   border-color: #5a6268;
 }
