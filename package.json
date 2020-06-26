@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rmstibbard.github.io/five-a-side/",
   "name": "five-a-side",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "redux": "^4.0.5"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
