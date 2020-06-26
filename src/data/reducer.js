@@ -7,6 +7,7 @@ const addPlayer = (state, action) => {
   }
 };
 
+
 // Simple random sort: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 const shufflePlayers = (state) => {
   return {
