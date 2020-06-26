@@ -15,11 +15,11 @@ body {
 }
 
 .team-a-title, .team-b-title, .players-list-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .team-a-players, .team-b-players, .players-list {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 
 footer {
@@ -31,10 +31,10 @@ footer {
     font-size: 3rem;
   }
   .team-a-title, .team-b-title, .players-list-title {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   .team-a-players, .team-b-players, .players-list {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
 }
 

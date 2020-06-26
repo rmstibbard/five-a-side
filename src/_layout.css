@@ -67,6 +67,7 @@ body {
 
 .team-a-players, .team-b-players, .players-list {
   margin-top: 20px;
+  line-height: 2.9rem;
 }
 
 .team-a-players {
@@ -105,7 +106,7 @@ footer {
   }
   .team-a-players, .team-b-players {
     margin-top: 30px;
-    line-height: 2.8rem;
+    line-height: 3rem;
   }
 }
 
@@ -126,6 +127,6 @@ footer {
     line-height: 2.5rem;
   }
   .team-a-players, .team-b-players {
-    line-height: 4rem;
+    line-height: 4.5rem;
   }
 }
