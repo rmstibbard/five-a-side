@@ -48,8 +48,8 @@ body {
 }
 
 .players-list {
-  width: 20%;
-  margin: auto
+  /* width: 20%;
+  margin: auto */
 }
 
 .team-a-title, .team-b-title {
@@ -78,10 +78,6 @@ body {
   text-align: right;
 }
 
-footer {
-  margin-top: 10px;
-}
-
 @media screen and (min-width: 700px) {
   .game {
     width: 70%;
@@ -94,6 +90,9 @@ footer {
   }
   .player-submit, .reset-teams {
     width: 410px;
+  }
+  .players-list {
+    line-height: 2.2rem;
   }
   .team-a-title, .team-b-title, .players-list-title {
     top: 20px;

@@ -17,17 +17,29 @@ class AddPlayer extends Component {
   };
 
   handleChange(e) {
-    this.setState({ playerName: e.currentTarget.value });
+    this.setState(
+      {
+        playerName: e.currentTarget.value
+      }
+    );
   }
 
   handleSubmit(e) {
     e.preventDefault();
-    this.props.handleSubmit({ ...this.state });
+    this.props.handleSubmit(
+      {
+        ...this.state
+      }
+    );
   }
 
   handleReset(e) {
     e.preventDefault();
-    this.props.handleReset({ ...this.state });
+    this.props.handleReset(
+      {
+        ...this.state
+      }
+    );
   }
 
 
@@ -35,7 +47,9 @@ class AddPlayer extends Component {
 
     return (
       <React.Fragment>
-        <form className="entry-form" onSubmit={this.handleSubmit}>
+        <form
+          className="entry-form"
+          onSubmit={this.handleSubmit}>
           <input
             disabled={this.props.numbersReached}
             placeholder="Enter a player's name"
