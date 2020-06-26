@@ -36,16 +36,23 @@ body {
   position: relative;
 }
 
-.team-a, .team-b {
+.players-list-title {
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  right: 20%
+}
+
+.team-a-title, .team-b-title {
   position: absolute;
   top: 10px;
 }
 
-.team-a {
+.team-a-title {
   left: 20px;
 }
 
-.team-b {
+.team-b-title {
   right: 20px;
 }
 
@@ -76,13 +83,13 @@ footer {
   .player-submit {
     width: 410px;
   }
-  .team-a, .team-b {
+  .team-a-title, .team-b-title {
     top: 20px;
   }
-  .team-a {
+  .team-a-title {
     left: 5%;
   }
-  .team-b {
+  .team-b-title {
     right: 5%;
   }
   .team-a-players, .team-b-players {
@@ -95,13 +102,13 @@ footer {
   .entry-form {
     width: 75%;
   }
-  .team-a, .team-b {
+  .team-a-title, .team-b-title {
     top: 40px;
   }
-  .team-a {
+  .team-a-title {
     left: 5%;
   }
-  .team-b {
+  .team-b-title {
     right: 5%;
   }
   .team-a-players, .team-b-players {

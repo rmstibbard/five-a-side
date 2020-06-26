@@ -14,7 +14,7 @@ body {
   font-size: 1.5rem;
 }
 
-.team-a, .team-b {
+.team-a-title, .team-b-title, .players-list-title {
   font-size: 1.5rem;
 }
 
@@ -30,10 +30,10 @@ footer {
   .header h1 {
     font-size: 3rem;
   }
-  .team-a, .team-b {
+  .team-a-title, .team-b-title, .players-list-title {
     font-size: 2.2rem;
   }
-  .team-a-players, .team-b-players {
+  .team-a-players, .team-b-players, .players-list {
     font-size: 1.7rem;
   }
 }
@@ -42,10 +42,10 @@ footer {
   .header h1 {
     font-size: 4rem;
   }
-  .team-a, .team-b {
+  .team-a-title, .team-b-title .players-list-title {
     font-size: 3rem;
   }
-  .team-a-players, .team-b-players {
+  .team-a-players, .team-b-players, .players-list {
     font-size: 2rem;
   }
 }
