@@ -4,7 +4,7 @@ const DisplayTeams = ({ playersList, teamA, teamB }) => (
   <React.Fragment>
     <div className="game">
 
-      {playersList.length < 10 ?
+      {(playersList.length > 0 && playersList.length < 10) ?
         <div className="players-list-title">
           <p>Players to sort</p>
           <ul className="players-list">

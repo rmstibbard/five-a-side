@@ -8,7 +8,7 @@ class AddPlayer extends Component {
 
     this.state = {
       playerName: props.playerName,
-      numbersReached: props.numbersReached
+      numbersReached: props.numbersReached,
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -48,9 +48,11 @@ class AddPlayer extends Component {
 
     return (
       <React.Fragment>
+
         <form
           className="entry-form"
           onSubmit={this.handleSubmit}>
+
           <input
             disabled={this.props.numbersReached}
             placeholder="Enter a player's name"
@@ -59,6 +61,7 @@ class AddPlayer extends Component {
             onChange={this.handleChange}
             required
           />
+
           <button
             disabled={this.props.numbersReached}
             type="submit"
@@ -66,12 +69,15 @@ class AddPlayer extends Component {
           >
             Add a player
           </button>
+
           <button
             className="reset-teams"
             onClick={this.handleReset}>
             Reset teams
             </button>
+
           <NumbersReached />
+
         </form>
 
       </React.Fragment>
