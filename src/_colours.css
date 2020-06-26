@@ -4,7 +4,7 @@
 
 .players-list {
   color: #000;
-  background-color: rgba(173, 255, 47, 0.5);
+  background-color: rgba(192, 192, 192, 0.5);
 }
 
 .entry-form {
@@ -39,4 +39,10 @@
 .reset-teams:hover {
   background-color: #c82333;
   border-color: #c82333;
+}
+
+@media screen and (min-width: 700px) {
+  .players-list {
+    background-color: rgba(173, 255, 47, 0.5);
+  }
 }

@@ -6,9 +6,11 @@ body {
   background-attachment: fixed;
 }
 
-.game {
-  background-image: url('../src/img/pitch.jpg');
-  /* https://www.pxfuel.com/en/free-photo-ornro */
-  background-size: contain;
-  background-repeat: no-repeat;
+@media screen and (min-width: 700px) {
+  .game {
+    background-image: url('../src/img/pitch.jpg');
+    /* https://www.pxfuel.com/en/free-photo-ornro */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
