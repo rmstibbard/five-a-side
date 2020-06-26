@@ -49,7 +49,11 @@ class AddPlayer extends Component {
           >
             Add a player
           </button>
-          <button onClick={this.handleReset}>Reset teams</button>
+          <button
+            className="reset-teams"
+            onClick={this.handleReset}>
+            Reset teams
+            </button>
           <NumbersReached />
         </form>
 

@@ -5,15 +5,18 @@ const DisplayTeams = ({ playersList, teamA, teamB }) => (
     <div className="game">
 
       <div>
-        <div className="players-list-title">
-          <p>Players to sort</p>
-          <ul className="players-list">
-            {playersList.length < 10 ?
-              playersList.map((player, index) => (
-                <li key={index}>{player.name}</li>
-              )) : null}
-          </ul>
-        </div>
+        {playersList.length < 10 ?
+          <div className="players-list-title">
+            <p>Players to sort</p>
+            <ul className="players-list">
+              {
+                playersList.map((player, index) => (
+                  <li key={index}>{player.name}</li>
+                ))}
+            </ul>
+          </div> :
+          null
+        }
 
         <div className="team-a-title">
           <p>Team A</p>
