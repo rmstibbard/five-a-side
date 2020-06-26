@@ -1,6 +1,7 @@
 import { connect } from "react-redux";
 import AddPlayer from "./AddPlayer";
 import { addPlayer } from "../../data/actions";
+import { reset } from "../../data/actions";
 
 const mapStateToProps = (state) => {
   return {
@@ -11,6 +12,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
+    handleReset: () => dispatch(reset()),
     handleSubmit: (data) => dispatch(addPlayer(data)),
   }
 }

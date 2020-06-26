@@ -13,7 +13,7 @@ class AddPlayer extends Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-
+    this.handleReset = this.handleReset.bind(this);
   };
 
   handleChange(e) {
@@ -23,6 +23,11 @@ class AddPlayer extends Component {
   handleSubmit(e) {
     e.preventDefault();
     this.props.handleSubmit({ ...this.state });
+  }
+
+  handleReset(e) {
+    e.preventDefault();
+    this.props.handleReset({ ...this.state });
   }
 
 
@@ -44,6 +49,7 @@ class AddPlayer extends Component {
           >
             Add a player
           </button>
+          <button onClick={this.handleReset}>Reset teams</button>
           <NumbersReached />
         </form>
 

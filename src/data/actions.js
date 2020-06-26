@@ -16,3 +16,10 @@ export const createTeams = (data) => {
     }
   };
 };
+
+export const reset = () => {
+  return {
+    type: "RESET",
+  }
+}
+
