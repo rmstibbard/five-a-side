@@ -38,7 +38,7 @@ const createTeams = (state) => {
 
 const reducer = (state, action) => {
   switch (action.type) {
-    case "ADD_PLAYER": return createTeams(shufflePlayers(addPlayer(state, action)));
+    case "ADD_PLAYER": return addPlayer(state, action);
     case "CREATE_TEAMS": return createTeams(shufflePlayers(addPlayer(state, action)));
     case "RESET": return { ...initialState };
     default: return state;
