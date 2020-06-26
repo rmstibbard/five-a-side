@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/five-a-side/static/css/main.a87954e6.chunk.css",
+    "main.js": "/five-a-side/static/js/main.fda65248.chunk.js",
+    "main.js.map": "/five-a-side/static/js/main.fda65248.chunk.js.map",
+    "runtime-main.js": "/five-a-side/static/js/runtime-main.f5fc50a0.js",
+    "runtime-main.js.map": "/five-a-side/static/js/runtime-main.f5fc50a0.js.map",
+    "static/js/2.b1d2bff4.chunk.js": "/five-a-side/static/js/2.b1d2bff4.chunk.js",
+    "static/js/2.b1d2bff4.chunk.js.map": "/five-a-side/static/js/2.b1d2bff4.chunk.js.map",
+    "index.html": "/five-a-side/index.html",
+    "precache-manifest.67f0eeb6f72457d9a4ad3dd9b0ae112c.js": "/five-a-side/precache-manifest.67f0eeb6f72457d9a4ad3dd9b0ae112c.js",
+    "service-worker.js": "/five-a-side/service-worker.js",
+    "static/css/main.a87954e6.chunk.css.map": "/five-a-side/static/css/main.a87954e6.chunk.css.map",
+    "static/js/2.b1d2bff4.chunk.js.LICENSE.txt": "/five-a-side/static/js/2.b1d2bff4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/five-a-side/static/media/pitch.09675139.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5fc50a0.js",
+    "static/js/2.b1d2bff4.chunk.js",
+    "static/css/main.a87954e6.chunk.css",
+    "static/js/main.fda65248.chunk.js"
+  ]
+}
