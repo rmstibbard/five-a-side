@@ -21,11 +21,15 @@ body {
   outline: none;
 }
 
-.player-submit {
+.player-submit, .reset-teams {
   margin: 10px auto;
   display: block;
   height: 50px;
   width: 70%;
+}
+
+.numbers-reached {
+  margin-top: 30px;
 }
 
 .game {
@@ -87,7 +91,7 @@ footer {
   .player-input {
     width: 400px;
   }
-  .player-submit {
+  .player-submit, .reset-teams {
     width: 410px;
   }
   .team-a-title, .team-b-title, .players-list-title {
