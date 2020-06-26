@@ -31,6 +31,7 @@ class AddPlayer extends Component {
         ...this.state
       }
     );
+    e.currentTarget.reset();
   }
 
   handleReset(e) {
@@ -56,6 +57,7 @@ class AddPlayer extends Component {
             className="player-input"
             type="text"
             onChange={this.handleChange}
+            required
           />
           <button
             disabled={this.props.numbersReached}
