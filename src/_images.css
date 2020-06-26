@@ -3,6 +3,7 @@ body {
   /*https://pxhere.com/en/photo/1426191 */
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .game {
