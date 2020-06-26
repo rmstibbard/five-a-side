@@ -10,7 +10,7 @@ body {
   font-size: 1rem;
 }
 
-.form-header, .player-input, .player-submit, .numbers-reached {
+.form-header, .player-input, .player-submit, .reset-teams, .numbers-reached {
   font-size: 1.5rem;
 }
 
@@ -18,7 +18,7 @@ body {
   font-size: 1.5rem;
 }
 
-.team-a-players, .team-b-players {
+.team-a-players, .team-b-players, .players-list {
   font-size: 1.25rem;
 }
 
@@ -31,18 +31,18 @@ footer {
     font-size: 3rem;
   }
   .team-a-title, .team-b-title, .players-list-title {
-    font-size: 2.2rem;
+    font-size: 1.25rem;
   }
   .team-a-players, .team-b-players, .players-list {
-    font-size: 1.7rem;
+    font-size: 1.25rem;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .header h1 {
     font-size: 4rem;
   }
-  .team-a-title, .team-b-title .players-list-title {
+  .team-a-title, .team-b-title, .players-list-title {
     font-size: 3rem;
   }
   .team-a-players, .team-b-players, .players-list {

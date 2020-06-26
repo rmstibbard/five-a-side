@@ -1,7 +1,41 @@
-.header, .numbers-reached, .team-a-title, .team-b-title, .players-list-title, .players-list, .form-header, footer {
+.header, .numbers-reached, .team-a-title, .team-b-title, .players-list-title, .form-header, footer {
   color: white;
+}
+
+.players-list {
+  color: #000;
+  background-color: rgba(173, 255, 47, 0.5);
 }
 
 .entry-form {
   background-color: rgba(192, 192, 192, 0.3);
+}
+
+.player-submit {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  outline: none;
+}
+
+.player-submit:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+.player-submit:disabled {
+  background-color: black;
+  border-color: #5a6268;
+}
+
+.reset-teams {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  outline: none;
+}
+
+.reset-teams:hover {
+  background-color: #c82333;
+  border-color: #c82333;
 }

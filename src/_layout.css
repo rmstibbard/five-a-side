@@ -21,18 +21,22 @@ body {
   outline: none;
 }
 
-.player-submit {
+.player-submit, .reset-teams {
   margin: 10px auto;
   display: block;
   height: 50px;
   width: 70%;
 }
 
+.numbers-reached {
+  margin-top: 30px;
+}
+
 .game {
   margin-left: auto;
   margin-right: auto;
   height: 900px;
-  width: 70%;
+  width: 90%;
   position: relative;
 }
 
@@ -41,6 +45,11 @@ body {
   top: 50px;
   left: 20%;
   right: 20%
+}
+
+.players-list {
+  width: 20%;
+  margin: auto
 }
 
 .team-a-title, .team-b-title {
@@ -56,9 +65,8 @@ body {
   right: 20px;
 }
 
-.team-a-players, .team-b-players {
+.team-a-players, .team-b-players, .players-list {
   margin-top: 20px;
-  line-height: 2.25rem;
 }
 
 .team-a-players {
@@ -74,16 +82,19 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
+  .game {
+    width: 70%;
+  }
   .entry-form {
     width: 90%;
   }
   .player-input {
     width: 400px;
   }
-  .player-submit {
+  .player-submit, .reset-teams {
     width: 410px;
   }
-  .team-a-title, .team-b-title {
+  .team-a-title, .team-b-title, .players-list-title {
     top: 20px;
   }
   .team-a-title {
@@ -102,7 +113,7 @@ footer {
   .entry-form {
     width: 75%;
   }
-  .team-a-title, .team-b-title {
+  .team-a-title, .team-b-title, .players-list-title {
     top: 40px;
   }
   .team-a-title {
@@ -110,6 +121,9 @@ footer {
   }
   .team-b-title {
     right: 5%;
+  }
+  .players-list {
+    line-height: 2.5rem;
   }
   .team-a-players, .team-b-players {
     line-height: 4rem;

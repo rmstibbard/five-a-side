@@ -34,7 +34,9 @@ const DisplayTeams = ({ playersList, teamA, teamB }) => (
               {playersList.length === 10 ?
                 teamB.map((player, index) => (
                   <li key={index}>{player.name}</li>
-                )) : null}
+                )) :
+                <p>Thinking ...</p>
+              }
             </ul>
           </div>
         </div>
