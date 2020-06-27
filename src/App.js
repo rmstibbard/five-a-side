@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-import AddPlayer from './components/AddPlayer'; // Has container file
-// import ListPlayers from './components/ListPlayers';
-// import CreateTeams from './components/CreateTeams';
+import AddPlayer from './components/AddPlayer';
 import DisplayTeams from './components/DisplayTeams';
 
 function App() {

@@ -1,10 +1,5 @@
-.header, .numbers-reached, .team-a-title, .team-b-title, .players-list-title, .form-header {
+.header, .numbers-reached, .team-a-title, .team-b-title, .players-list-title, .players-list-item, .form-header {
   color: white;
-}
-
-.players-list {
-  color: #000;
-  background-color: rgba(192, 192, 192, 0.5);
 }
 
 .entry-form {
@@ -43,6 +38,6 @@
 
 @media screen and (min-width: 700px) {
   .players-list {
-    background-color: rgba(173, 255, 47, 0.5);
+    /* background-color: rgba(173, 255, 47, 0.5); */
   }
 }

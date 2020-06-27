@@ -10,7 +10,7 @@ const DisplayTeams = ({ playersList, teamA, teamB }) => (
           <ul className="players-list">
             {
               playersList.map((player, index) => (
-                <li key={index}>{player.name}</li>
+                <li className="players-list-item" key={index}>{player.name}</li>
               ))}
           </ul>
         </div> :
