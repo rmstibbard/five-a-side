@@ -4,7 +4,12 @@
 
 The brief was to create a tool which randomly picks 5-a-side football teams from a list of 10 names.
 
-A working version can be seen online on Github Pages at [https://rmstibbard.github.io/five-a-side](https://rmstibbard.github.io/five-a-side).
+A working version can be seen online on Github Pages at [https://rmstibbard.github.io/five-a-side](https://rmstibbard.github.io/five-a-side). 
+
+The zip file of the project is located at [https://drive.google.com/file/d/1XiSHzGT77g2KosROanh6-xa8Z6oI-yLI/view?usp=sharing](https://drive.google.com/file/d/1XiSHzGT77g2KosROanh6-xa8Z6oI-yLI/view?usp=sharing).
+
+
+A full report of the planning for the project, including images of the wireframes, etc., can be seen at [https://docs.google.com/document/d/1lzfwRFs5MXWS-Y8PDQ5FBzZX5ZbTG7KgMR05OzZmsmA/edit?usp=sharing](https://docs.google.com/document/d/1lzfwRFs5MXWS-Y8PDQ5FBzZX5ZbTG7KgMR05OzZmsmA/edit?usp=sharing).
 
 
 ## Setup
@@ -26,7 +31,6 @@ You will need to have NPM installed in order to set the application up.
 
 ## Planning
 
-A full report of the planning for the project, including images of the wireframes, etc., can be seen [here](https://docs.google.com/document/d/1lzfwRFs5MXWS-Y8PDQ5FBzZX5ZbTG7KgMR05OzZmsmA/edit?usp=sharing).
 
 
 ### Responsive styling
