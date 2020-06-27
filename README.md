@@ -34,7 +34,7 @@ A mobile-first approach was taken to the design of the layout. Wireframes for th
 
 
 ### Functionality
-The user enters player names one at a time and clicks 'Add player' each time. As the players are entered they are listed below (in random order - this is either a bug or a feature depending on how you see it) prior to sorting. 
+The user enters player names one at a time and clicks 'Add player' each time. As the players are entered they are listed below prior to sorting. 
 
 When the tenth player is entered, they are randomly sorted into two teams and listed to the left and right of the football pitch (wider screens) or screen (narrow screens).
 
@@ -51,9 +51,14 @@ The app was built using React and Redux as it was thought that React would be id
 - react-redux
 
 
+### Data handling
+
+User-inputted players' names are added to an array named playersList in state. 
+
+
 ## Future development
 
-In its current form the app is rather simple; it has no features other than those described above. For future development features which could be added include player skill levels, colour of team kits, and a listing of previous games. More ambitious would be a backend connection to an API using Laravel so that games can be accessed and saved across devices. 
+In its current form the app is rather simple; it has no features other than those described above. For future versions, features which could be added include player skill levels, colour of team kits, and a listing of previous games. More ambitious would be a backend connection to an API using Laravel so that games can be accessed and saved across devices. 
 
-In view of the time limit, and due to my relative lack of experience with React, I decided to aim for the current product as an MVP rather than trying to build something more ambitious which did not work. In future, as I increase my familiarity with React and Redux I am sure building more complex apps will not be difficult.
+In view of the time limit, and due to my relative lack of experience with React, I decided to aim for the current product as an MVP rather than trying to build something more ambitious which might not work. In future, as I increase my familiarity with React and Redux I am sure building more complex apps will not be difficult.
 

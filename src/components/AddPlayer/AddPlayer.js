@@ -74,7 +74,7 @@ class AddPlayer extends Component {
             className="reset-teams"
             onClick={this.handleReset}>
             Reset teams
-            </button>
+          </button>
 
           <NumbersReached />
 
