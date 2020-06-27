@@ -27,6 +27,7 @@ const createTeams = (state) => {
       ...state,
       teamA: teamA,
       teamB: teamB,
+      numbersReached: false,
     }
   }
   else {
